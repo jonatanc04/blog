@@ -9,7 +9,7 @@ class Post extends Model
 {
     use HasFactory;
 
-    public function usuario() {
-        return $this->belongsTo(Usuario::class);
+    public function user() {
+        return $this->belongsTo(User::class);
     }
 }
